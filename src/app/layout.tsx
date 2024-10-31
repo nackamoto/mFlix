@@ -18,10 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* Link to your favicon */}
-        <link rel="icon" href="/logo.png" type="image/png" />
-      </head>
       <body className={inter.className}>
         <Header />
         {children}
